@@ -64,7 +64,7 @@ Here's a blank template to get started:
 
 ### Built With
 
-* []()
+* [example](http://www.example.com)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -75,18 +75,14 @@ To get a local copy up and running follow these simple steps.
 
 This is an example of how to list things you need to use the software and how to install them.
 
-```shell
-# installs the tooling requirements
-pip install -r requirements.txt
-# installs the git hook for pre-commit
-pre-commit install
-```
-
 ### Installation
 
 ```shell
 # clone the repo
 git clone https://github.com/capcodigital/repo_name.git
+
+# sets up the environment
+source .env
 ```
 
 <!-- USAGE EXAMPLES -->
