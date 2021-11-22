@@ -25,31 +25,24 @@
   </p>
 </p>
 
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
-    <li><a href="#built-with">Built With</a></li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#local-dependencies">Local Dependencies</a></li>
-        <li><a href="#local-setup">Local Setup</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
+<details>
+  <summary>Contents</summary>
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [About The Project](#about-the-project)
+- [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Local Dependencies](#local-dependencies)
+  - [Local Setup](#local-setup)
+- [Usage](#usage)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 </details>
 
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
@@ -65,7 +58,6 @@ Further logos should be inserted to highlight the specific technologies used to 
 
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
-<!-- GETTING STARTED -->
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
@@ -91,7 +83,7 @@ make init
 
 # explicitly pass in the repo name (e.g. my-service)
 make repo=my-service init
- ```
+```
 
 If at any point the repo name needs to be changed then the `make rename` target can be called.
 
@@ -99,19 +91,16 @@ If at any point the repo name needs to be changed then the `make rename` target 
 make repo=my-service rename
 ```
 
-<!-- USAGE EXAMPLES -->
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-<!-- ROADMAP -->
 ## Roadmap
 
 See the [open issues](https://github.com/capcodigital/oss-template/issues) for a list of proposed features (and known issues).
 
-<!-- CONTRIBUTING -->
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -127,19 +116,14 @@ If you would like to contribute to any Capco Digital OSS projects please read:
 * [Code of Conduct](https://github.com/capcodigital/.github/blob/master/CODE_OF_CONDUCT.md)
 * [Contributing Guidelines](https://github.com/capcodigital/.github/blob/master/CONTRIBUTING.md)
 
-<!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
 * [Best README Template](https://github.com/othneildrew/Best-README-Template)
 * [Markdown Badges](https://github.com/Ileriayo/markdown-badges)
+* [DocToc](https://github.com/thlorenz/doctoc)
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/capcodigital/oss-template.svg?style=for-the-badge
 [contributors-url]: https://github.com/capcodigital/oss-template/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/capcodigital/oss-template.svg?style=for-the-badge
@@ -150,3 +134,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [issues-url]: https://github.com/capcodigital/oss-template/issues
 [license-shield]: https://img.shields.io/github/license/capcodigital/oss-template.svg?style=for-the-badge
 [license-url]: https://github.com/capcodigital/oss-template/blob/master/LICENSE
+[product-screenshot]: images/screenshot.png
