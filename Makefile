@@ -21,6 +21,7 @@ requirements:
 
 --hooks:
 	@git add .
+	@pre-commit autoupdate
 	@pre-commit install
 	@echo
 	@-pre-commit
